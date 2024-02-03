@@ -23,11 +23,11 @@
 
         default_layer {
             bindings = <
-  &kp ESCAPE        &kp N1            &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4    &kp N6     &kp N7          &kp N8     &kp N9                  &kp N0    &kp MINUS
-  &kp LS(NUMBER_4)  &kp LS(NUMBER_1)  &kp A         &kp W         &kp D         &kp R           &kp Y      &kp U           &kp I      &kp O                   &kp P     &kp LBKT
-  &kp LS(Q)         &kp LS(NUMBER_2)  &kp Q         &kp S         &kp E         &kp F           &kp H      &kp J           &kp K      &kp L                   &kp SEMI  &mt RCTRL SQT
-  &kp LS(N5)        &kp Z             &kp LS(Z)     &kp X         &kp C         &kp V           &kp N      &kp M           &kp COMMA  &kp DOT                 &kp FSLH  &mt RALT BSLH
-                                      &kp LGUI      &kp LS(X)     &kp LS(C)     &kp SPACE       &lt 1 ESC  &mt RSHFT BSPC  &lt 2 DEL  &mt RGUI RIGHT_BRACKET
+  &kp ESCAPE        &kp N1            &kp NUMBER_1  &kp NUMBER_2  &mt LS(NUMBER_3) NUMBER_3  &kp NUMBER_4    &kp N6     &kp N7          &kp N8     &kp N9                  &kp N0    &kp MINUS
+  &kp LS(NUMBER_4)  &kp LS(NUMBER_1)  &kp A         &kp W         &kp D                      &kp R           &kp Y      &kp U           &kp I      &kp O                   &kp P     &kp LBKT
+  &kp LS(Q)         &kp LS(NUMBER_2)  &kp Q         &kp S         &kp E                      &kp F           &kp H      &kp J           &kp K      &kp L                   &kp SEMI  &mt RCTRL SQT
+  &kp LS(N5)        &kp Z             &kp LS(Z)     &kp X         &kp C                      &kp V           &kp N      &kp M           &kp COMMA  &kp DOT                 &kp FSLH  &mt RALT BSLH
+                                      &kp LGUI      &kp LS(X)     &kp LS(C)                  &kp SPACE       &lt 1 ESC  &mt RSHFT BSPC  &lt 2 DEL  &mt RGUI RIGHT_BRACKET
             >;
         };
 
